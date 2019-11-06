@@ -26,7 +26,7 @@ app.use('/users', users);
 app.use('/auth', auth);
 app.use('/tasks', tasks);
 
-app.get("/", (req,res) => {
+app.get("/test", (req,res) => {
     res.send("Hello BACKLOG")
 })
 
